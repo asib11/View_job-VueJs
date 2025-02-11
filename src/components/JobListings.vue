@@ -1,7 +1,7 @@
 <script setup>
 import jobsList from '@/jobs.json'
 import JobListing from './JobListing.vue';
-import { ref, defineProps } from 'vue';
+import { ref} from 'vue';
  const jobs = ref(jobsList);
 
  defineProps({

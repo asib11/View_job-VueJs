@@ -28,3 +28,19 @@ npm run dev
 npm run build
 ```
 # View_job-VueJs
+
+# Use Prime Icone
+```
+npm install primeicons
+```
+## Import
+CSS file of the icon library needs to be imported in `styles.scss` of your application.
+```
+import 'primeicons/primeicons.css'
+```
+# Setup Vue-Router
+```
+npm i vue-router
+```
+
+
