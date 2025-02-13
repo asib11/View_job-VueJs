@@ -29,18 +29,20 @@ npm run build
 ```
 # View_job-VueJs
 
-# Use Prime Icone
+## se Prime Icone
 ```
 npm install primeicons
 ```
-## Import
+### Import
 CSS file of the icon library needs to be imported in `styles.scss` of your application.
 ```
 import 'primeicons/primeicons.css'
 ```
-# Setup Vue-Router
+## Setup Vue-Router
 ```
 npm i vue-router
 ```
+## for temporary json server 
+npm i json-server
 
 

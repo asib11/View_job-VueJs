@@ -1,11 +1,10 @@
 <script setup>
-import jobsList from '@/jobs.json'
 import JobListing from './JobListing.vue';
 import { ref} from 'vue';
 
 import { RouterLink } from 'vue-router';
 
-const jobs = ref(jobsList);
+const jobs = ref([]);
 
  defineProps({
   limit : Number,
