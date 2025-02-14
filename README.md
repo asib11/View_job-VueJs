@@ -43,6 +43,12 @@ import 'primeicons/primeicons.css'
 npm i vue-router
 ```
 ## for temporary json server 
+```
 npm i json-server
+```
+## Using Axios for data fetching and spinning for vue spinner
+```
+npm i axios vue-spinner
+```
 
 
