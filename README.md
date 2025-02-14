@@ -1,14 +1,7 @@
 # job-vue
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+In this project, I implemented all stuff of Vuejs for learn. Here I used Vue3 , Vue-router and importent composition API like onMount, reactive, ref, defineProps, json-server etc. Besides some others stuff like axios, vue spinner, primeIcon, vue-toastification.
+For design, I used Tailwind css
 
 ## Project Setup
 
@@ -29,7 +22,7 @@ npm run build
 ```
 # View_job-VueJs
 
-## se Prime Icone
+## Prime Icone
 ```
 npm install primeicons
 ```
@@ -50,5 +43,15 @@ npm i json-server
 ```
 npm i axios vue-spinner
 ```
+## toaster alart
+```
+npm install --save vue-toastification@next
+```
+## Recommended IDE Setup
 
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vite.dev/config/).
 

@@ -32,12 +32,12 @@ const truncatedDescription = computed(() =>{
         <div>
           {{ truncatedDescription }}
         </div>
-        <button @click="toggleFullDescription" class="text-green-500 hover:text-green-600 mb-5">
+        <button @click="toggleFullDescription" class="text-sky-500 hover:text-sky-600 mb-5">
           {{ showFullDescription ? 'Less' : 'More'  }}
         </button>
       </div>
 
-      <h3 class="text-green-500 mb-2">{{ job.salary }} / Year</h3>
+      <h3 class="text-sky-500 mb-2">{{ job.salary }} / Year</h3>
 
       <div class="border border-gray-100 mb-5"></div>
 
@@ -48,7 +48,7 @@ const truncatedDescription = computed(() =>{
         </div>
         <RouterLink
           :to="'/jobs/'+job.id"
-          class="h-[36px] bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+          class="h-[36px] bg-sky-500 hover:bg-sky-600 text-white px-4 py-2 rounded-lg text-center text-sm"
         >
           Read More
         </RouterLink>
