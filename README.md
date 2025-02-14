@@ -28,3 +28,27 @@ npm run dev
 npm run build
 ```
 # View_job-VueJs
+
+## se Prime Icone
+```
+npm install primeicons
+```
+### Import
+CSS file of the icon library needs to be imported in `styles.scss` of your application.
+```
+import 'primeicons/primeicons.css'
+```
+## Setup Vue-Router
+```
+npm i vue-router
+```
+## for temporary json server 
+```
+npm i json-server
+```
+## Using Axios for data fetching and spinning for vue spinner
+```
+npm i axios vue-spinner
+```
+
+
